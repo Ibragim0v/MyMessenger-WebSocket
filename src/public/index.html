@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyMessenger</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <h1>MyMessenger</h1>
+
+    <div class="wrapper">
+      <ul id="joins-list">
+        <h2>Join</h2>
+      </ul>
+
+      <div id="messages">
+        <form id="form" class="messages-wrapper">
+          <input
+            name="sms"
+            class="messages-input"
+            type="text"
+            placeholder="Enter Something..."
+          />
+          <button type="submit">
+            <img
+              src="https://www.svgrepo.com/show/230922/send.svg"
+              alt="send"
+              class="img"
+              width="25"
+              height="25"
+            />
+          </button>
+        </form>
+
+        <ul id="messages-list"></ul>
+      </div>
+
+      <ul id="users-list">
+        <h2>User</h2>
+      </ul>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

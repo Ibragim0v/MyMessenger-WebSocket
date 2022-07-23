@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: 2px solid gray;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+}
+
+#joins-list {
+  border-right: 2px solid gray;
+  width: 25%;
+  height: 100vw;
+  text-align: center;
+}
+
+#messages {
+  width: 50%;
+  border-right: 2px solid gray;
+}
+
+#messages-list {
+  height: 100vw;
+}
+
+#users-list {
+  width: 25%;
+  text-align: center;
+  height: 100vw;
+}
+
+.messages-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  height: 100px;
+}
+
+h2 {
+  border-bottom: 2px solid gray;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.y-message-item {
+  text-align: end;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.o-message-item {
+  padding-right: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.o-message-item > span,
+.y-message-item > span {
+  font-size: 12px;
+  color: gray;
+  font-weight: bold;
+}
+
+.o-message-item > p,
+.y-message-item > p {
+  font-size: 18px;
+  color: rgb(50, 49, 49);
+  font-weight: 500;
+}
+
+input {
+  padding: 10px 20px;
+  outline: none;
+  border: 2px solid gray;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
